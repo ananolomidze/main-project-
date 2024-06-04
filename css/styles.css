@@ -57,8 +57,31 @@ width: 20%;
     color: rgb(79, 232, 255) !important;
    }
    .carousel{
-    width: 100%;
-    height: 50%;
+    width: 50%;
+
     padding-top: 20px;
    }
-  
+   .picc{
+    width: 100%;
+   }
+  .conteinerr1{
+    display: flex;
+    align-items: center;
+  }
+  .pico{
+    width: 100%;
+
+  }
+  .divv{
+    width: 40%;
+    height: 70%;
+    margin-top: 50px;
+  }
+  .cont4{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    align-items: center;
+    margin-left: 15px;
+    margin-right: 15px;
+  }
