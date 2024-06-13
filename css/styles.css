@@ -13,7 +13,9 @@ li{
 .conteiner{
     display: flex;
     background-color:rgb(79, 232, 255);
-
+  width: 100%;
+  justify-content: space-between;
+  
 }
 .pic{
   
@@ -24,13 +26,7 @@ li{
     margin-left: 30px;
     
 }
-.cont1{
-width: 50%;
-}
-.cont{
-    width: 50%;
-    
-}
+
 
    .a {
         color: inherit;
@@ -60,14 +56,23 @@ width: 50%;
     color: rgb(79, 232, 255) !important;
    }
    .carousel{
-    width: 50%;
-margin-left: 20%;
+    width: 100%;
+
     padding-top: 20px;
    }
    .picc{
     width: 100%;
    }
   .conteinerr1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .conteinerr2{
+  
+    align-items: center;
+  }
+  .production-div, .cont4, .btnn{
     display: flex;
     align-items: center;
   }
@@ -85,10 +90,17 @@ margin-left: 20%;
     justify-content: space-between;
     text-align: center;
     align-items: center;
-    margin-left: 120px;
-    margin-right: 120px;
+    margin-left: 10%;
+    margin-right: 10%;
     margin-bottom: 40px;
     margin-top: 30px;
+    
+ 
+   
+    @media (max-width:888px) {
+      flex-wrap: wrap;
+      justify-content: center;
+    }
   }
   .production{
     font-size: 40px;
@@ -109,7 +121,7 @@ margin-left: 20%;
 }
 .border{
   display: flex;
-  
+  justify-content: space-between;
   background-color:rgb(79, 232, 255);
   width: 100%;
   height: 100%;
@@ -122,7 +134,7 @@ margin-left: 20%;
   margin-bottom: 2%;
 }
 .cont5{
-  margin-left: 50%;
+
 }
 h3{
   margin-bottom: 10px;
@@ -138,6 +150,9 @@ h3{
 margin-top: 60px;
 margin-left: 15px;
 margin-bottom: 20px;
+@media (max-width:1100px) {
+  width: 100%;
+}
 }
 h5{
   font-size: 20px;
@@ -160,9 +175,15 @@ margin-left: 10px;
   margin-left: 10px;}
   .main-divv{
 display: flex;
-
+@media (max-width:1100px) {
+  flex-wrap: wrap;
+justify-content:center;
+}
   }
   .second-div{
     margin-left: 18%;
     margin-top: 3%;
+    @media (max-width:1100px) {
+      margin-left: 0%;
+    }
   }
