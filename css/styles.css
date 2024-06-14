@@ -9,6 +9,11 @@ li{
     font-size: 24px;
     
 }
+.headerr{
+  position: sticky;
+  top: 0;
+  z-index: 1;
+}
 
 .conteiner{
     display: flex;
