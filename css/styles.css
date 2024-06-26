@@ -86,6 +86,21 @@ li{
    margin-top: 30px;
    border-radius: 40%;
 }
+
+.production-div1{
+  margin-left: 38%;
+  width: 700px;
+  border-color:  rgb(79, 232, 255) ;
+  background-color:  rgb(79, 232, 255) ;
+   padding-left:40px ;
+   margin-top: 30px;
+   border-radius: 10%;
+   margin-left: 10%;
+}
+
+
+
+
   .production-div, .cont4, .btnn{
     display: flex;
     
@@ -121,7 +136,7 @@ li{
     
   margin-bottom: 20px;
   margin-top: 20px;
- 
+ color: white;
   }
 .btnn{
   margin-left: 48%;
@@ -213,3 +228,69 @@ justify-content:center;
   .bottom-text{
     margin-bottom: 15px;
   }
+
+  .pp{
+    display: flex;
+    justify-content: space-around;
+    border-color:  rgb(79, 232, 255) ;
+    background-color:  rgb(79, 232, 255) ;
+     padding-left:40px ;
+     margin-top: 30px;
+     padding-top: 10px;
+     height: 70px;
+  }
+  .p3{
+    font-size: 20px;
+    color: aliceblue;
+
+   
+    animation-direction: alternate;
+    animation: mymove 6s linear 3s;
+    animation-fill-mode: forwards;
+    position: absolute;
+    animation-iteration-count: infinite;
+  }
+
+
+
+.p4{
+  font-size: 20px;
+  color: white;
+  
+  
+
+  animation-direction: alternate;
+  animation: mymove1  6s linear 1s;
+  animation-fill-mode: forwards;
+  position: absolute;
+  animation-iteration-count: infinite;
+}
+
+
+@keyframes mymove1 {
+  from{right: 10px;}
+  to{right:1200px;} }
+
+
+  @media (max-width:1100px)  {
+    
+    @keyframes mymove1 {
+      from{right: 20%;}
+      to{right:90%;} }
+}
+
+
+
+ @keyframes mymove {
+    from{right: 10px;}
+    to{right:1300px;} }
+  
+    @media (max-width:1100px)  {
+    
+      @keyframes mymove {
+        from{right: 10%;}
+        to{right:90%;} }
+}
+  
+
+   
