@@ -10,7 +10,25 @@ li{
   
     
 }
+nav{
+  @media (max-width:620px) {
+   display: none;
+  }
+}
+    .burger-icon {
+      width: 20%;
+      @media (min-width:621px){
+        display: none;
+      }
+      @media (max-width:620px){
+        display: block;
+      }
+    }
+  
+  
+      
 
+  
 
 .headerr{
   position: sticky;
@@ -85,6 +103,10 @@ li{
    padding-left:40px ;
    margin-top: 30px;
    border-radius: 40%;
+   @media (max-width:800px){
+    width: 100%;
+    margin-left: 0%;
+   }
 }
 
 .production-div1{
@@ -96,6 +118,10 @@ li{
    margin-top: 30px;
    border-radius: 10%;
    margin-left: 10%;
+   @media (max-width:800px){
+    width: 100%;
+    margin-left: 0%;
+   }
 }
 
 
@@ -204,17 +230,31 @@ margin-left: 10px;
   margin-left: 10px;}
   .main-divv{
 display: flex;
+font-family: "Roboto", sans-serif;
+font-weight: 500;
+font-style: normal;
 @media (max-width:1100px) {
   flex-wrap: wrap;
 justify-content:center;
 }
   }
+   
+
+  
   .second-div{
     margin-left: 18%;
     margin-top: 3%;
-    @media (max-width:1100px) {
+    @media (max-width:1100px){
+      width: 100%;
       margin-left: 0%;
-    }
+     }}
+ 
+.second-div{
+     @media (max-width:622px){
+      width: 100%;
+      margin-left: 0%;
+
+     }
   }
   .flex-conteiner{
  border-style: solid ;
@@ -292,5 +332,96 @@ justify-content:center;
         to{right:90%;} }
 }
   
+.button{
+border-color:  rgb(79, 232, 255) ;
+  background-color:  rgb(79, 232, 255) ;
+color: white;
+border-radius: 6%;
+}
 
+.img3{
+  width: 280px;
+  margin-top: 10px;
+}
+
+   .body11{
+    align-items: center;
+   }
+
+   .flex-conteiner6{
+    border-style: solid ;
+ border-radius: 2%;
+ border-width: thin;
+ border-color: rgb(171, 171, 171);
+ width: 30%;
+ margin-top: 60px;
+ display: flex;
+ flex-direction: column;
+ align-items: center;
+ justify-content: space-around;
+ margin-left: 20px;
+ @media (max-width:1100px) {
+  width: 100%;
+}
+
+   }
+
+   .img4{
+    width: 60%;
+   }
+  .font{
+    color: black;
+    font-size: 17px;
    
+  }
+  p{
+    color: black;
+    font-size: 22px;
+   
+  }
+
+  .main-divvv{
+    width: 50%;
+    background-color: rgb(246, 245, 244);
+    border-radius: 3%;
+  margin-top: 60px;
+  margin-left: 10%;
+ 
+  margin-bottom: 20px;
+  padding-left: 15px;
+  @media (max-width:1100px) {
+    width: 100%;
+    margin-left: 5%;
+  margin-right: 5%;
+  }
+
+  }
+  .note{
+    font-size: 18px;
+    color: white;
+  }
+  .pppp{
+    color: white;
+    font-size: 22px;
+  }
+  .mainn-div{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-left: 15px;
+    margin-top: 10%;
+    border-color: rgb(79, 232, 255) ;
+    background-color: rgb(79, 232, 255); 
+    border-radius: 5%;
+    padding-bottom: 20px;
+    margin-left: 28%;
+    @media (max-width:1100px) {
+      width: 100%;
+     margin-left: 0%;
+    
+    }
+  }
+  .tbs{
+    width: 10%;
+  }
