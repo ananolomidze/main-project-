@@ -278,6 +278,9 @@ justify-content:center;
      margin-top: 30px;
      padding-top: 10px;
      height: 70px;
+     @media (max-width:620px) {
+      display: none;
+    }
   }
   .p3{
     font-size: 20px;
@@ -289,6 +292,9 @@ justify-content:center;
     animation-fill-mode: forwards;
     position: absolute;
     animation-iteration-count: infinite;
+    @media (max-width:620px) {
+      display: none;
+    }
   }
 
 
@@ -304,6 +310,9 @@ justify-content:center;
   animation-fill-mode: forwards;
   position: absolute;
   animation-iteration-count: infinite;
+  @media (max-width:620px) {
+    display: none;
+  }
 }
 
 
